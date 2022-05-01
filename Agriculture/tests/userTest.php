@@ -5,9 +5,9 @@ class userTest extends \PHPUnit\Framework\TestCase{
     public function testSignUpandLogin(){
         $this->user = new \App\user;
 
-        $this->user->signUp("Lucifer",123456);
+        $this->user->signUp("xyz",123456);
 
-        $this->assertEquals($this->user->login("Lucifer",123456),True);
+        $this->assertEquals($this->user->login("xyz",123456),True);
     }
 }
 
