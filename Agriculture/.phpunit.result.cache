@@ -1,0 +1,1 @@
+{"version":1,"defects":{"AdminTest::testAdmin":5,"Warning":6},"times":{"userTest::testSignUpandLogin":0,"AdminTest::testAdmin":0.005,"Warning":0,"InventoryTest::testharvest":0.018,"locationTest::testlocation":0}}
